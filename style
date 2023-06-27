@@ -1,0 +1,142 @@
+.headerbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0B89FD;
+    color:white;
+}
+
+.headerbar a{
+    margin-left: 10px;
+ }
+
+.navbar a{
+    margin-right:5px;
+ }
+
+.overview{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(ondasdois.jpg);
+    background-size:100%;
+    background-position: bottom;
+ }
+
+.meunderwater{
+    margin-top:20px;
+    border-radius:12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.overviewtext{
+    text-align: center;
+    color:black;
+    font-size:20px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.overviewtexthone{
+    font-family: 'Black Ops One', cursive;
+    font-size: 35px;
+ }
+
+.aboutme{
+    line-height: 20pt;
+ }
+
+.hobbiesimg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.hobbiesimgimg{
+    border-radius:7px;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    margin-top:30px;
+}
+
+.academiclist{
+    list-style-type: none;
+}
+
+.academichigh::before{
+    content:"📝";
+}
+
+.academicuniversity::before{
+    content:"📘";
+}
+
+.academicdegree::before{
+    content:"📖 ";
+}
+
+.academicmaster::before{
+    content:"📚 ";
+}
+
+.academicp{
+    text-align: center;
+}
+
+.academicp::after{
+    content:"🤓";
+}
+
+.contact{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.footer{
+    background-color: #98a09e;
+    color:#f4faf8;
+}
+
+.footerp{
+    text-align: center;
+}
+
+h3{
+    font-family: 'Black Ops One', cursive;
+    color:#92BCEA;
+    font-size: 20px;
+    
+}
+
+@media(max-width:768px){
+    .headerbar{
+        display:flex;
+        flex-direction: column;
+        background-color: #0B89FD;
+        color:gold;
+    }
+
+    .navbar a{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right:5px;
+     }
+
+     .hobbiesimg{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hobbiesimgimg{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius:7px;
+        box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+        margin-top:30px;
+    }
+   
+
+}
